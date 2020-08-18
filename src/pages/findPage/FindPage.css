@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Lato;
+    src: local('Lato') , url("../../fonts/Lato/Lato-Regular.ttf") format('truetype');
+}
+
+body{
+    font-family: Lato, serif;
+    background-color: #e1e8ef;
+}
+
+.cardStyle {
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+
+.searchInput{
+    margin: 0 2em;
+}

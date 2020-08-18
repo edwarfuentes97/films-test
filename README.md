@@ -1,3 +1,9 @@
+<h1>IMPORTANTE !</h1>
+En el find los datos que se envian se limpian de caracteres especiales antes de enviarse a la petición
+ 
+<hr/>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

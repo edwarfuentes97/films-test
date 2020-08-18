@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { WithContext } from './context/withContext';
+import AppRouter from "./routers/AppRouter";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import './styles/styles.scss'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppRouter />
     </div>
   );
 }
 
-export default App;
+
+
+
+interface HOCP {
+  state: boolean;
+  callBack: () => void;
+}
+
+export function HOC(Component: React.FC<HOCP>)  {
+  function rederizate(props: any) {
+    return (
+      <Component state={false} callBack={() => {}} />
+    )
+  }
+  return rederizate;
+}
+
+
+export default WithContext(App);

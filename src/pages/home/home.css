@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Lato;
+    src: local('Lato') , url("../../fonts/Lato/Lato-Regular.ttf") format('truetype');
+}
+
+body{
+    font-family: Lato, serif;
+    background-color: #e1e8ef;
+}
+
+.main_container{
+    width: 70%;
+    height: auto;
+    background: white;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    padding: 5%;
+    border-radius: 2rem;
+}
+
+.container_main_weater{
+    position: fixed;
+    left: 0;
+    top: 14em;
+    height: 11em;
+    width: 7em;
+    background: transparent;
+}
+
+.sub_container{
+    height: 50%;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.sub_container_1{
+    background-color: #303683;
+    border-radius: 0em 1em 1em 0;
+    z-index: 3;
+}
+.sub_container_2{
+    background-color: #7e7fe4;
+    border-radius: 1em 0 1em 0;
+    margin-top: -1em;
+    z-index: 1;
+}
+.icon{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top:0.5em ;
+}
+
+.centigrados_icon{
+    font-size: 2.5em;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    padding-top: 0.5em;
+}
+
+
+.main_container_2{
+    width: 70%;
+    height: auto;
+    background: white;
+    display: block;
+    margin: -3em auto auto !important;
+    padding: 0 5%;
+    border-radius: 2rem;
+}
