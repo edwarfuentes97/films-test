@@ -1,6 +1,6 @@
 {
   "name": "films-test",
-  "homepage": "https://edwarfuentes97.github.io/",
+  "homepage": "https://edwarfuentes97.github.io/films-test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,8 +29,8 @@
     "build": "react-scripts docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run docs",
-    "deploy": "gh-pages -d docs"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
