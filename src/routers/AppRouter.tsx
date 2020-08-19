@@ -24,8 +24,8 @@ export default function BasicExample() {
 								<Navbar bg="dark" variant="dark">
 										<Navbar.Brand href="/home">Newton Films</Navbar.Brand>
 										<Nav className="mr-auto">
-												<Nav.Link href={'/films-test/home'}>  Inicio  </Nav.Link>
-												<Nav.Link href={'/films-test/find'}>  Buscar  </Nav.Link>
+												<Nav.Link href={'/home'}>  Inicio  </Nav.Link>
+												<Nav.Link href={'/find'}>  Buscar  </Nav.Link>
 												{/*	<Nav.Link href={'/detail'}>  detail  </Nav.Link>*/}
 										</Nav>
 								</Navbar>
